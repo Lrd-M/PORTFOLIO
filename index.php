@@ -1,5 +1,5 @@
 <?PHP
 
-include_once("src/template/index.html")
+include_once("src")
 
 ?>
