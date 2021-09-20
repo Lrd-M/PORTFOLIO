@@ -1,5 +1,5 @@
 <p align="center">
-      <h2 align="center">PORTIFÓLIO PARA FATEC SJC</h2>
+      <h2 align="center">PORTFÓLIO PARA FATEC SJC</h2>
 <p align="center">
       
 <hr>
