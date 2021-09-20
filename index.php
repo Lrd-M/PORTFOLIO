@@ -1,5 +1,5 @@
 <?PHP
 
-include_once("src")
+include_once("src/")
 
 ?>
