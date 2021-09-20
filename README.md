@@ -25,7 +25,7 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
  - [x] INÍCIO -> É o "Hall de entrada do site"
  - [x] PROJETOS -> Página onde contém todos os projetos ou softwares que já fiz
  - [x] CURRÍCULO -> Nessa página contém meu currículo
- - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço.
+ - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço
 
 
 > <h3>REQUISITOS</h3>
@@ -36,5 +36,5 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
 
   
 :link: CLIQUE ABAIXO PARA NAVEGAR PELO MEU PORTFÓLIO:  
-> [PORTFÓLIO](https://portfolio-fatec.herokuapp.com/index.html)
+> [PORTFÓLIO](https://bit.ly/39kOysK)
       
