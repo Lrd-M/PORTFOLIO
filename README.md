@@ -36,5 +36,5 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
 
   
 :link: CLIQUE ABAIXO PARA NAVEGAR PELO MEU PORTFÓLIO:  
-> [PORTFÓLIO](https://portfolio-fatec.herokuapp.com/index.html)
+> [PORTFÓLIO](https://bityli.com/bcKGt9)
       
