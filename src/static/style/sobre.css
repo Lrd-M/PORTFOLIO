@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 100% 100%;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+	}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.Perfil {
+    background-image:url(../imagens/Eu\ II.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Hobbie1 {
+    background-image:url(../imagens/HOBBIE\ I.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Hobbie2 {
+    background-image:url(../imagens/HOBBIE\ II.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Hobbie3 {
+    background-image:url(../imagens/HOBBIE\ III.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Hobbie4 {
+    background-image:url(../imagens/HOBBIE\ IV.png);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.GIF1 {
+    background-image:url(../imagens/GIF\ I.gif);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.GIF2 {
+    background-image:url(../imagens/GIF\ II.gif);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.GIF3 {
+    background-image:url(../imagens/GIF\ III.gif);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.card {
+    text-align: start;
+}

@@ -1,0 +1,37 @@
+body {
+    background-size: 100% 100%;
+}
+
+.Meio {
+    text-align: center;
+}
+
+.Projeto1 {
+    background-image:url(../projetos/imagens/PROJETO\ I.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Projeto2 {
+    background-image:url(../projetos/imagens/PROJETO\ II.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Projeto3 {
+    background-image:url(../projetos/imagens/PROJETO\ III.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.column {   
+    float: left;
+    width: 100%;
+	}
+
+.card {
+    text-align: start;
+}
