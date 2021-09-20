@@ -7,7 +7,7 @@ body {
 }
 
 .Projeto1 {
-    background-image:url(../projetos/Imagens/PROJETO\ I.jpg);
+    background-image:url(../projetos/Imagens/PROJETO\ IV.png);
 	background-repeat:no-repeat;
     background-size: 100% 100%;
     padding: 20px;
@@ -22,6 +22,13 @@ body {
 
 .Projeto3 {
     background-image:url(../projetos/Imagens/PROJETO\ III.jpg);
+	background-repeat:no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.Projeto4 {
+    background-image:url(../projetos/Imagens/PROJETO\ I.jpg);
 	background-repeat:no-repeat;
     background-size: 100% 100%;
     padding: 20px;
