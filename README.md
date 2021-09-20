@@ -25,7 +25,7 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
  - [x] INÍCIO -> É o "Hall de entrada do site"
  - [x] PROJETOS -> Página onde contém todos os projetos ou softwares que já fiz
  - [x] CURRÍCULO -> Nessa página contém meu currículo
- - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço.
+ - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço
 
 
 > <h3>REQUISITOS</h3>
