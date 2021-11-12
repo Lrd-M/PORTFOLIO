@@ -61,16 +61,6 @@ body{
     }
 }
 
-@media screen and (max-width: 1000px) {
-    
-    .foto{
-        height: 100%;
-        width: 200px;
-        block-size: auto;
-        writing-mode: vertical-rl;
-    }
-}
-
 @media screen and (max-width: 800px) {
     
     .card_projeto{
@@ -79,7 +69,7 @@ body{
     }
 
     .foto{
-        height: 400px;
+        height: 300px;
         width: 100%;
         margin-bottom: 5px;
     }
