@@ -1,44 +1,111 @@
-body {
-    background-size: 100% 100%;
+body{
+    background-repeat: round;
 }
 
-.Meio {
+.card{
+    padding: 20px 1px 0px 1px;
+}
+
+.card_projeto{
+    background-color: white;
     text-align: center;
-}
-
-.Projeto1 {
-    background-image:url(../projetos/Imagens/PROJETO\ IV.png);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
     padding: 20px;
+    margin-top: 20px;
+	height: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
-.Projeto2 {
-    background-image:url(../projetos/Imagens/PROJETO\ II.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
+.foto{
+    height: 200px;
+    width: 400px;
+    margin-right: 20px;
 }
 
-.Projeto3 {
-    background-image:url(../projetos/Imagens/PROJETO\ III.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.Projeto4 {
-    background-image:url(../projetos/Imagens/PROJETO\ I.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.column {   
-    float: left;
+.imagens{
     width: 100%;
-	}
+    height: 100%;
+}
 
-.card {
-    text-align: start;
+.h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 200px;
+    width: 80%;
+}
+
+/* Responsivo*/
+@media screen and (max-width: 1920px) {
+    
+    .foto{
+        height: 300px;
+        width: auto;
+    }
+
+    .card_projeto{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    
+    .descricao p{
+        overflow: overlay;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .foto{
+        height: 100%;
+        width: 200px;
+        block-size: auto;
+        writing-mode: vertical-rl;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .card_projeto{
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .foto{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .descricao{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .card_projeto{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    .card_projeto{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    
+    .card_projeto{
+        height: 350px;
+    }
 }

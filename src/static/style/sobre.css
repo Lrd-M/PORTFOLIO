@@ -1,78 +1,173 @@
-* {
-    box-sizing: border-box;
+body{
+    background-repeat: round;
+    background-size: 3000px;
 }
 
-body {
-    background-size: 100% 100%;
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.leftcolumn {   
-    float: left;
-    width: 75%;
-	}
+.left_column{
+    display: flex;
+    flex-direction: column;
+    width: 74%;
+}
 
-.rightcolumn {
-    float: left;
+.right_column{
+    display: flex;
+    flex-direction: column;
     width: 25%;
-    padding-left: 20px;
 }
 
-.Perfil {
-    background-image:url(../imagens/Eu\ II.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.Hobbie1 {
-    background-image:url(../imagens/HOBBIE\ I.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.Hobbie2 {
-    background-image:url(../imagens/HOBBIE\ II.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.Hobbie3 {
-    background-image:url(../imagens/HOBBIE\ III.jpg);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.Hobbie4 {
-    background-image:url(../imagens/HOBBIE\ IV.png);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.GIF1 {
-    background-image:url(../imagens/GIF\ I.gif);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.GIF2 {
-    background-image:url(../imagens/GIF\ II.gif);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.GIF3 {
-    background-image:url(../imagens/GIF\ III.gif);
-	background-repeat:no-repeat;
-    background-size: 100% 100%;
-    padding: 20px;
-}
-
-.card {
+.card_left{
+    background-color: white;
     text-align: start;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card_right{
+    background-color: white;
+    text-align: start;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.perfil{
+    width: 100%;
+    height: 85%;
+}
+
+.imagens1{
+    width: 100%;
+    height: 500px;
+}
+
+.imagens2{
+    width: 100%;
+    height: 550px;
+}
+
+p {
+    word-break: break-word;
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .imagens1{
+        height: 400px;
+    }
+
+    .imagens2{
+        height: 450px;
+    }
+
+    .card_right h3{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .left_column{
+        width: 68%;
+    }
+
+    .right_column{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .imagens1{
+        height: 300px;
+    }
+
+    .imagens2{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    
+    .left_column{
+        width: 63%;
+    }
+
+    .right_column{
+        width: 35%;
+    }
+
+    .imagens1{
+        height: 200px;
+    }
+
+    .imagens2{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .left_column{
+        width: 56%;
+    }
+
+    .right_column{
+        width: 42%;
+    }
+
+    .imagens1{
+        height: 150px;
+    }
+
+    .imagens2{
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .row{
+        flex-direction: column;
+    }
+
+    .left_column{
+        width: 100%;
+    }
+
+    .right_column{
+        width: 100%;
+    }
+
+    .imagens1{
+        height: 250px;
+    }
+
+    .imagens2{
+        height: 650px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .imagens1{
+        height: 150px;
+    }
+
+    .imagens2{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .imagens2{
+        height: 350px;
+    }
 }
