@@ -34,7 +34,4 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
  - [x]  PÁGINAS RESPONSIVAS
 
 
-Vídeo demonstrativo do protfólio: https://youtu.be/3IFfqYJYZe0  
-:link: CLIQUE ABAIXO PARA NAVEGAR PELO MEU PORTFÓLIO:  
-> [PORTFÓLIO](https://bit.ly/3CqNoZm)
-      
+Vídeo sobre o portfólio: https://youtu.be/3xqwKQpqaOk 
