@@ -35,3 +35,5 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
 
 
 Vídeo sobre o portfólio: https://youtu.be/3xqwKQpqaOk 
+
+> Link para acessar o portfólio: https://lrdm-portfolio.herokuapp.com/
