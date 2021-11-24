@@ -7,7 +7,7 @@
 <p align="center">
   | <a href ="#rocket-PROJETO"> PROJETO </a>  | 
   <a href ="#dart-PROPOSTA"> PROPOSTA </a>  | 
-  <a href ="#🚧-QUICK START"> QUICK START </a>  |
+  <a href ="#construction-QUICK START"> QUICK START </a>  |
 </p>
 
 <br>
@@ -37,7 +37,7 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
 
 <br>
 
-## 🚧 QUICK START
+## :construction: QUICK START
 
 
 Tendo a ferramenta Git e o Python instalados em seu computador:
