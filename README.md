@@ -27,6 +27,14 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
  - [x] CURRÍCULO -> Nessa página contém meu currículo
  - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço
 
+<div>
+  <h3>TECNOLOGIAS USADAS |
+     <img align="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=white"/>
+     <img align="center" alt="CSS3" src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=white"/>
+     <img align="center" alt="Python" src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white"/>
+     <img align="center" alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+ </div>
+
 <br>
 
 ## :construction: QUICK START
@@ -64,6 +72,8 @@ flask run
 - Vá até o caminho indicado http://127.0.0.1:5000/ ou http://127.0.0.1:9000/ e navegue na aplicação.
 
 <br>
+
+## 📌 LINKS RELACIONADOS AO PORTFÓLIO:
 
 Vídeo sobre o portfólio: https://youtu.be/3xqwKQpqaOk 
 
