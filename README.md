@@ -1,14 +1,6 @@
 <p align="center">
       <h2 align="center">PORTFÓLIO PARA FATEC SJC</h2>
 <p align="center">
-      
-<hr>
-
-<p align="center">
-  | <a href ="#rocket-PROJETO"> PROJETO </a>  | 
-  <a href ="#dart-PROPOSTA"> PROPOSTA </a>  | 
-  <a href ="#construction-QUICK START"> QUICK START </a>  |
-</p>
 
 <br>
 
