@@ -27,11 +27,14 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
  - [x] CURRÍCULO -> Nessa página contém meu currículo
  - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço
 
+<br>
 
 > <h3>REQUISITOS</h3>
 
  - [x]  CÓDIGO EM HTML E CSS
  - [x]  PÁGINAS RESPONSIVAS
+
+<br>
 
 ## 🚧 QUICK START
 
@@ -64,10 +67,6 @@ pip install -r requirements.txt
 - Agora certifique-se que está no diretório ```src``` e para executar a aplicação, execute o comando:
 ```
 flask run
-```
-- A aplicação estará rodando por padrão na porta :5000, caso já tenha uma aplicação rodando nesta porta, certifique-se de selecionar uma porta livre na hora de rodar a aplicação:
-``` 
-flask run -p 9000
 ```
 - Vá até o caminho indicado http://127.0.0.1:5000/ ou http://127.0.0.1:9000/ e navegue na aplicação.
 
