@@ -9,23 +9,23 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
 
 <br>
 
-## :dart: PROPOSTA
+## :dart: PROPOSTA/OBJETIVOS
 
-**DESENVOLVER MEU PRÓPRIO PORTFÓLIO:**<br><br>
+**Desenvolver um portfólio com base no que foi anteriormente requisitado:**<br><br>
 
+ > <h3>REQUISITOS</h3>
+
+ - [x]  CÓDIGO EM HTML E CSS
+ - [x]  PÁGINAS RESPONSIVAS
+
+<br>     
+      
 > <h3>PÁGINAS DO SITE</h3>
 
  - [x] INÍCIO -> É o "Hall de entrada do site"
  - [x] PROJETOS -> Página onde contém todos os projetos ou softwares que já fiz
  - [x] CURRÍCULO -> Nessa página contém meu currículo
  - [x] SOBRE MIM -> Aqui eu falo sobre mim, meu Hobbys, quem eu sou e oque faço
-
-<br>
-
-> <h3>REQUISITOS</h3>
-
- - [x]  CÓDIGO EM HTML E CSS
- - [x]  PÁGINAS RESPONSIVAS
 
 <br>
 
