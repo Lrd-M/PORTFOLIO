@@ -33,6 +33,45 @@ Trabalho desenvolvido para o curso de Desenvolvimento de Software Multiplataform
  - [x]  CÓDIGO EM HTML E CSS
  - [x]  PÁGINAS RESPONSIVAS
 
+## 🚧 QUICK START
+
+
+Tendo a ferramenta Git e o Python instalados em seu computador:
+- Abra o Prompt de Comando no caminho de um novo diretório e copie o seguinte comando para clonar o nosso repositório:
+
+```
+git clone https://github.com/Lrd-M/PORTFOLIO.git
+```
+- Dentro da pasta root do projeto, crie um Ambiente Virtual com o seguite comando:
+```
+python3 -m venv venv
+```
+ou caso tenha o python3 já instalado
+```
+python -m venv venv
+```
+(Obs.: caso você utilize um sistema operacional diferente do Windows, verifique comandos alternativos neste [Link](https://docs.python.org/pt-br/3/library/venv.html) .)
+- Isso criará o diretório  ```venv```. Agora ative o Ambiente Virtual com o comando:
+```
+venv\Scripts\activate
+```
+- Você deverá ver o ambiente virtual ativado antes do caminho do seu diretório, assim:
+``` (venv) C:\...```
+- Agora instale as dependências do projeto:
+``` 
+pip install -r requirements.txt
+```
+- Agora certifique-se que está no diretório ```src``` e para executar a aplicação, execute o comando:
+```
+flask run
+```
+- A aplicação estará rodando por padrão na porta :5000, caso já tenha uma aplicação rodando nesta porta, certifique-se de selecionar uma porta livre na hora de rodar a aplicação:
+``` 
+flask run -p 9000
+```
+- Vá até o caminho indicado http://127.0.0.1:5000/ ou http://127.0.0.1:9000/ e navegue na aplicação.
+
+<br>
 
 Vídeo sobre o portfólio: https://youtu.be/3xqwKQpqaOk 
 
