@@ -2,7 +2,6 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
 # Rotas
 @app.route('/')
 def home():
@@ -15,7 +14,6 @@ def projetos():
 @app.route('/curriculo')
 def curriculo():
     return render_template('curriculo.html')
-
 
 @app.route('/sobre')
 def sobre():

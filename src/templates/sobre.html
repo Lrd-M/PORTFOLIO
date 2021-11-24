@@ -1,87 +1,53 @@
-<!DOCTYPE html><html>
-<html lang="pt-br">
-<html>
-    <head>
+{% extends 'home.html' %}
 
-        <title>SOBRE MIM</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../static/style/home.css">
-        <link rel="stylesheet" type="text/css" href="../static/style/sobre.css">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block title %}SOBRE{% endblock %}
 
-    </head>
-
-    <body>
-
-        <div class="container_head">
-            <div class="Header">
-                <img class="logo" src="../static/imagens/LOGO II.png">
-                <p><h1>PORTFÓLIO</h1></p>
-            </div>
-
-            <div class="Navbar">
-                <a href="/">INÍCIO</a>
-                <a href="/projetos">PROJETOS</a>
-                <a href="/curriculo">CURRÍCULO</a>
-                <a href="/sobre">SOBRE MIM</a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="left_column">
-                <div class="card_left">
-                <h2>📌 SOBRE MIM</h2>
-                <p>Meu nome é Leonardo tenho 18 anos, nasci em Araranguá, Santa Catarina, no dia 28 de outubro de 2002. Sempre me interessei por tecnologia, sempre gostei de mexer/fuçar em celulares e computadores, então após me formar no Ensino Médio, decidi seguir minha vida acadêmica voltada a programação. Sou uma pessoa calma e reservada, sei quando devo ser sério e quando devo me divertir, sempre cumpro meus prazos, pois sei manejar meu tempo, ouço muito mais as pessoas, porém quando acho necessário expresso minha opinião.  </p>
-                <h4>📚 ATUALMENTE CURSANDO:</h4>
-                <p>
-                    ETEC - Análise e Desenvolvimento de Sistemas 2/3<br>
-                    UNIP - Análise e Desenvolvimento de Sistemas 4/4<br>
-                    FATEC - Desenvolvimento de Software Mutiplataforma 1/6
-                </p>
-                </div>
-                <div class="card_left">
-                    <h2>MEUS HOBBIES</h2>
-                    <h4>[🖥] TECNOLOGIA:</h4>
-                    <p>Gosto de estar por dentro das novas tecnologias, principalmente o que se refere a novos hardwares de desktop, como placas de vídeo, processadores, memórias, entre outros.</p>
-                    <img class="imagens1" src="../static/imagens/HOBBIE I.jpg">
-                    <h4>[🚘] TUNING:</h4>
-                    <p>Gosto de tudo que envolva carros e motos, como tuning, reformas, projetos diferenciados, corridas e programas.</p>
-                    <img class="imagens1" src="../static/imagens/HOBBIE II.jpg"><br><br>
-                    <img class="imagens1" src="../static/imagens/GIF III.gif">
-                    <h4>[🎮] GAMES:</h4>
-                    <p>Gosto bastante de jogos, sempre estou por dentro de lançamentos e atualizações, costumo jogar nas horas vagas.</p>
-                    <img class="imagens1" src="../static/imagens/HOBBIE III.jpg">
-                </div>  
-            </div>
-
-            <div class="right_column">
-                <div class="card_right">
-                    <img class="perfil" src="../static/imagens/Eu II.jpg">
-                    <h3>👨‍🎓 => LEONARDO QUEIRÓZ MACHADO</h3>
-                </div>
-                <div class="card_right">
-                    <h3>LINKS</h3>
-                    <p>📍 GitHub: <a href="https://github.com/Lrd-M">https://github.com/Lrd-M</a></p>
-                    <p>🐤 Twitter: <a href="https://twitter.com/LRDMzin">https://twitter.com/LRDMzin</a></p>
-                    <p>📷 Instagram: <a href="https://www.instagram.com/lrdmzin/">https://www.instagram.com/lrdmzin/</a></p>
-                </div> 
-                <div class="card_right">
-                    <h4>[🎨] SÉRIES / ANIMES / MANGÁS:</h4>
-                    <p>Nas horas vagas, eu também gosto de assistir séries, animes, ou ler um mangá, estou sempre por dentro da maioria dos lançamentos ou conteúdos que estejam no hype no momento.</p>
-                    <img class="imagens2" src="../static/imagens/GIF I.gif"><br><br>
-                    <img class="imagens2" src="../static/imagens/GIF II.gif"><br><br>
-                    <img class="imagens2" src="../static/imagens/HOBBIE IV.png">
-                </div>  
-            </div>
-        </div>
-
-        <footer>
-            <div class="footer">
-            <font face="Open Sans" color="White">Email: leomachadosocial@gmail.com</font>
-            <font face="Open Sans" color="White">| Contato: (48) 99830-0472</font>  
-            </div>   
-        </footer>
+{% block head %}<link rel="stylesheet" type="text/css" href="../static/style/sobre.css">{% endblock %}
         
-    </body>
-</html>
+{% block row %}
+    <div class="left_column">
+        <div class="card_left">
+        <h2>📌 SOBRE MIM</h2>
+        <p>Meu nome é Leonardo tenho 19 anos, nasci em Araranguá, Santa Catarina, no dia 28 de outubro de 2002. Sempre me interessei por tecnologia, sempre gostei de mexer/fuçar em celulares e computadores, então após me formar no Ensino Médio, decidi seguir minha vida acadêmica voltada a programação. Sou uma pessoa calma e reservada, sei quando devo ser sério e quando devo me divertir, sempre cumpro meus prazos, pois sei manejar meu tempo, ouço muito mais as pessoas, porém quando acho necessário expresso minha opinião.  </p>
+        <h4>📚 ATUALMENTE CURSANDO:</h4>
+        <p>
+            ETEC - Análise e Desenvolvimento de Sistemas 2/3<br>
+            UNIP - Análise e Desenvolvimento de Sistemas 4/4<br>
+            FATEC - Desenvolvimento de Software Mutiplataforma 1/6
+        </p>
+        </div>
+        <div class="card_left">
+            <h2>MEUS HOBBIES</h2>
+            <h4>[🖥] TECNOLOGIA:</h4>
+            <p>Gosto de estar por dentro das novas tecnologias, principalmente o que se refere a novos hardwares de desktop, como placas de vídeo, processadores, memórias, entre outros.</p>
+            <img class="imagens1" src="../static/imagens/HOBBIE I.jpg">
+            <h4>[🚘] TUNING:</h4>
+            <p>Gosto de tudo que envolva carros e motos, como tuning, reformas, projetos diferenciados, corridas e programas.</p>
+            <img class="imagens1" src="../static/imagens/HOBBIE II.jpg"><br><br>
+            <img class="imagens1" src="../static/imagens/GIF III.gif">
+            <h4>[🎮] GAMES:</h4>
+            <p>Gosto bastante de jogos, sempre estou por dentro de lançamentos e atualizações, costumo jogar nas horas vagas.</p>
+            <img class="imagens1" src="../static/imagens/HOBBIE III.jpg">
+        </div>  
+    </div>
+
+    <div class="right_column">
+        <div class="card_right">
+            <img class="perfil" src="../static/imagens/Eu II.jpg">
+            <h3>👨‍🎓 => LEONARDO QUEIRÓZ MACHADO</h3>
+        </div>
+        <div class="card_right">
+            <h3>LINKS</h3>
+            <p>📍 GitHub: <a href="https://github.com/Lrd-M">https://github.com/Lrd-M</a></p>
+            <p>🐤 Twitter: <a href="https://twitter.com/LRDMzin">https://twitter.com/LRDMzin</a></p>
+            <p>📷 Instagram: <a href="https://www.instagram.com/lrdmzin/">https://www.instagram.com/lrdmzin/</a></p>
+        </div> 
+        <div class="card_right">
+            <h4>[🎨] SÉRIES / ANIMES / MANGÁS:</h4>
+            <p>Nas horas vagas, eu também gosto de assistir séries, animes, ou ler um mangá, estou sempre por dentro da maioria dos lançamentos ou conteúdos que estejam no hype no momento.</p>
+            <img class="imagens2" src="../static/imagens/GIF I.gif"><br><br>
+            <img class="imagens2" src="../static/imagens/GIF II.gif"><br><br>
+            <img class="imagens2" src="../static/imagens/HOBBIE IV.png">
+        </div>  
+    </div>   
+{% endblock %}
